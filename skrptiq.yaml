@@ -1,0 +1,39 @@
+# --- Identity ---
+name: "essay-writing-pipeline"
+display_name: "Essay Writing Pipeline"
+description: "From topic to polished essay: thesis, outline, draft, and revision"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/essay-writing-pipeline"
+
+# --- Discovery (Hub) ---
+category: "student"
+tags:
+  - "essay"
+  - "writing"
+  - "academic"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "anthropic-claude"
+  permissions: []
+  data_handling: []
+
+# --- Contents ---
+contents:
+  skills: 2
+  prompts: 3
+  workflows: 1
+  services: 0
+  sources: 2
+  documents: 1
+  assets: 1
+  total: 10
