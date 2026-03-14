@@ -5,7 +5,7 @@ title: Essay Structuring
 description: "Organises arguments into a coherent essay structure"
 tags: [Production]
 connections:
-  - target: anthropic-claude
+  - target: llm-service
     type: runs_on
   - target: critical-thinking-framework
     type: references

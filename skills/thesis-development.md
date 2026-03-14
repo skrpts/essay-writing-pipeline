@@ -5,7 +5,7 @@ title: Thesis Development
 description: "Refines vague topics into focused, arguable thesis statements"
 tags: []
 connections:
-  - target: anthropic-claude
+  - target: llm-service
     type: runs_on
 ---
 
