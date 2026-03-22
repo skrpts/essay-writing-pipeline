@@ -52,7 +52,10 @@ A structured essay containing:
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.brief}}` | Yes | Primary workflow brief or source content | `Paste a short brief describing the goal, audience, and constraints.` |
+| `{{input.essay_topic}}` | Yes | The essay topic or question | `Discuss the role of social media in shaping modern political movements.` |
+| `{{input.subject_area}}` | Yes | The academic subject or discipline | `Politics` |
+| `{{input.level}}` | Yes | Academic level (e.g. undergraduate, postgraduate) | `undergraduate` |
+| `{{input.word_count}}` | Yes | Target word count for the essay | `2000` |
 
 ## Outputs
 
@@ -79,6 +82,9 @@ Before running this workflow:
 To test this workflow immediately after import:
 
 ```
-Brief: "Paste a short brief describing the goal, audience, and constraints."
+Essay Topic: "Discuss the role of social media in shaping modern political movements."
+Subject Area: "Politics"
+Level: "undergraduate"
+Word Count: "2000"
 ```
 

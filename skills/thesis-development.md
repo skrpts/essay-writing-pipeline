@@ -3,7 +3,7 @@ type: skill
 id: thesis-development
 title: Thesis Development
 description: "Refines vague topics into focused, arguable thesis statements"
-tags: []
+tags: [Production]
 connections:
   - target: llm-service
     type: runs_on

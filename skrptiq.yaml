@@ -2,7 +2,7 @@
 name: "essay-writing-pipeline"
 display_name: "Essay Writing Pipeline"
 description: "From topic to polished essay: thesis, outline, draft, and revision"
-version: "1.0.0"
+version: "1.2.0"
 engine: ">=1.0.0"
 
 # --- Attribution ---
