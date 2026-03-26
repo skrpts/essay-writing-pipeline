@@ -15,4 +15,8 @@ Generates a complete first draft following the established essay structure and t
 
 ## Prompt
 
-Write a first draft for the essay outline produced in the previous stage. Use academic tone appropriate for the level established in the earlier stages. Follow the structure provided, developing each paragraph with clear topic sentences, supporting evidence, and analytical commentary. Maintain consistent argument throughout and ensure smooth transitions between paragraphs. Target the word count specified in the essay outline.
+Write a first draft for the essay outline below. Use academic tone appropriate for the level established in the earlier stages.
+
+**Essay outline:** {{steps.structure-essay.output}}
+
+Follow the structure provided, developing each paragraph with clear topic sentences, supporting evidence, and analytical commentary. Maintain consistent argument throughout and ensure smooth transitions between paragraphs. Target the word count specified in the essay outline.
