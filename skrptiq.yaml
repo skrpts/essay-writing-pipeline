@@ -3,7 +3,7 @@ id: "c3c5437d-1276-4f25-b656-e86dcc8a3579"
 name: "essay-writing-pipeline"
 display_name: "Essay Writing Pipeline"
 description: "From topic to polished essay: thesis, outline, draft, and revision"
-version: "1.3.0"
+version: "1.4.0"
 engine: ">=1.0.0"
 
 # --- Attribution ---
@@ -33,8 +33,8 @@ contents:
   skills: 2
   prompts: 3
   workflows: 1
-  services: 0
+  services: 1
   sources: 2
   documents: 1
   assets: 1
-  total: 10
+  total: 11

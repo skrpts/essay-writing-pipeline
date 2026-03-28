@@ -15,6 +15,8 @@ connections:
     type: uses
   - target: essay-draft
     type: uses
+  - target: llm-service
+    type: runs_on
 ---
 
 ## Overview
