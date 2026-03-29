@@ -3,7 +3,7 @@ type: prompt
 id: structure-essay
 title: Structure Essay
 description: "Core prompt for organising arguments into essay structure"
-tags: [Production]
+tags: [Production, writing:academic, research:literature]
 connections:
   - target: essay-structuring
     type: derived_from

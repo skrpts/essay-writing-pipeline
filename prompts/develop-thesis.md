@@ -3,7 +3,7 @@ type: prompt
 id: develop-thesis
 title: Develop Thesis
 description: "Core prompt for refining topics into thesis statements"
-tags: [Production]
+tags: [Production, writing:academic, research:literature]
 connections:
   - target: thesis-development
     type: derived_from

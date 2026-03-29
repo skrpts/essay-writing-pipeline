@@ -3,7 +3,7 @@ type: prompt
 id: essay-draft
 title: Essay Draft
 description: "Task prompt for generating a first draft from an essay outline"
-tags: [Production]
+tags: [Production, writing:academic, research:literature]
 connections:
   - target: essay-structuring
     type: derived_from
