@@ -17,6 +17,10 @@ connections:
     type: uses
   - target: llm-service
     type: runs_on
+  - target: critical-thinking-framework
+    type: references
+  - target: harvard-referencing-guide
+    type: references
 ---
 
 ## Overview
