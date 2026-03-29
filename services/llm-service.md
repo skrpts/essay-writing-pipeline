@@ -3,7 +3,7 @@ type: service
 id: llm-service
 title: LLM Service
 description: "Language model service for analysis, synthesis, and document generation"
-tags: [Production, Tested, writing:academic, research:literature]
+tags: [Production, Tested, Academic, Writing]
 connections: []
 metadata:
   serviceType: llm

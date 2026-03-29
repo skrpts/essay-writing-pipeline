@@ -3,7 +3,7 @@ type: asset
 id: essay-plan-template
 title: Essay Plan Template
 description: "Template for planning essay structure before drafting"
-tags: [Production, writing:academic, research:literature]
+tags: [Production, Academic, Writing]
 connections: []
 ---
 

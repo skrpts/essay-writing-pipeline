@@ -3,7 +3,7 @@ type: workflow
 id: essay-writing-pipeline
 title: Essay Writing Pipeline
 description: "From topic to polished essay: thesis, outline, draft, and revision"
-tags: [Production, writing:academic, research:literature]
+tags: [Production, Academic, Learning, Writing]
 connections:
   - target: thesis-development
     type: uses

@@ -3,7 +3,7 @@ type: document
 id: essay-writing-checklist
 title: Essay Writing Checklist
 description: "Step-by-step checklist for producing quality academic essays"
-tags: [Production, writing:academic, research:literature]
+tags: [Production, Academic, Writing]
 connections: []
 ---
 

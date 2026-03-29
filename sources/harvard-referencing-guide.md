@@ -3,7 +3,7 @@ type: source
 id: harvard-referencing-guide
 title: Harvard Referencing Guide
 description: "Reference guide for Harvard citation style"
-tags: [Production, writing:academic, research:citations]
+tags: [Production, Academic, Citations, Writing]
 connections: []
 ---
 
