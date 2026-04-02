@@ -21,6 +21,16 @@ connections:
     type: references
   - target: harvard-referencing-guide
     type: references
+  - target: citation-extraction
+    type: uses
+  - target: study-planning
+    type: uses
+  - target: take-notes
+    type: uses
+  - target: essay-writing-checklist
+    type: references
+  - target: essay-plan-template
+    type: references
 ---
 
 ## Overview
