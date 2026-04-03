@@ -27,6 +27,12 @@ connections:
     type: references
   - target: essay-plan-template
     type: references
+  - target: language-polish
+    type: uses
+  - target: brief-compliance-check
+    type: uses
+  - target: evidence-claim-check
+    type: uses
 ---
 
 ## Overview
