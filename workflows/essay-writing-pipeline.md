@@ -9,12 +9,6 @@ connections:
     type: uses
   - target: essay-structuring
     type: uses
-  - target: develop-thesis
-    type: uses
-  - target: structure-essay
-    type: uses
-  - target: essay-draft
-    type: uses
   - target: llm-service
     type: runs_on
   - target: critical-thinking-framework
