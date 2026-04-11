@@ -27,6 +27,18 @@ connections:
     type: uses
   - target: evidence-claim-check
     type: uses
+execution:
+  - skill: "thesis-development"
+  - skill: "essay-structuring"
+    input_from: "thesis-development"
+  - skill: "citation-extraction"
+    input_from: "essay-structuring"
+  - skill: "language-polish"
+    input_from: "essay-structuring"
+  - skill: "brief-compliance-check"
+    input_from: "language-polish"
+  - skill: "evidence-claim-check"
+    input_from: "language-polish"
 ---
 
 ## Overview
