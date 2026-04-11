@@ -4,6 +4,13 @@ id: structure-essay
 title: Structure Essay
 description: "Core prompt for organising arguments into essay structure"
 tags: [Production, Academic, Writing]
+inputs:
+  word_count:
+    label: "Word Count"
+    description: "Target word count for the output"
+    example: "2000"
+    required: true
+    type: text
 connections:
   - target: essay-structuring
     type: derived_from

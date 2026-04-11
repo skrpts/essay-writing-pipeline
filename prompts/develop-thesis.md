@@ -4,6 +4,25 @@ id: develop-thesis
 title: Develop Thesis
 description: "Core prompt for refining topics into thesis statements"
 tags: [Production, Academic, Writing]
+inputs:
+  essay_topic:
+    label: "Essay Topic"
+    description: "The specific topic or question the essay should address"
+    example: "Analyse the impact of social media on democratic processes in the 2020s"
+    required: true
+    type: text
+  subject_area:
+    label: "Subject Area"
+    description: "The academic discipline or field of study"
+    example: "Political Science"
+    required: true
+    type: text
+  level:
+    label: "Academic Level"
+    description: "The academic level — affects vocabulary, complexity, and depth of analysis"
+    example: "Undergraduate Year 2"
+    required: true
+    type: text
 connections:
   - target: thesis-development
     type: derived_from
