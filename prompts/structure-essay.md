@@ -2,7 +2,7 @@
 type: prompt
 id: structure-essay
 title: Structure Essay
-description: "Core prompt for organising arguments into essay structure"
+description: "Core prompt for organising arguments into a complete essay draft"
 tags: [Production, Academic, Writing]
 inputs:
   word_count:
@@ -18,12 +18,14 @@ connections:
 
 ## Purpose
 
-Creates a detailed essay outline from a thesis statement and supporting arguments.
+Turns the thesis statement and supporting arguments into a complete essay draft that follows a coherent structure.
 
 ## Prompt
 
-You are an academic writing specialist. Using the thesis statement and supporting arguments below, create a detailed essay outline for an essay of approximately {{input.word_count}} words.
+You are an academic writing specialist. Using the thesis statement and supporting arguments below, write a complete essay draft of approximately {{input.word_count}} words.
 
 **Thesis and arguments:** {{steps.Thesis Development.output}}
 
-Include: an introduction with hook and thesis placement, body paragraphs each with a topic sentence, evidence points, and analysis notes, and a conclusion that synthesises the argument. Ensure logical flow between paragraphs and balanced coverage of each point.
+Write the full essay, not an outline. Include an introduction that establishes the argument, body paragraphs with clear topic sentences, evidence, analysis, and transitions, and a conclusion that synthesises the argument.
+
+Return the COMPLETE essay draft — the entire document with all sections written out in full. Do not return bullet points, planning notes, or an outline.

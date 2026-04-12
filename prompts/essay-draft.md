@@ -20,3 +20,5 @@ Write a first draft for the essay outline below. Use academic tone appropriate f
 **Essay outline:** {{steps.previous.output}}
 
 Follow the structure provided, developing each paragraph with clear topic sentences, supporting evidence, and analytical commentary. Maintain consistent argument throughout and ensure smooth transitions between paragraphs. Target the word count specified in the essay outline.
+
+Return the COMPLETE essay draft — the entire document with all sections written out in full. Do not return planning notes, paragraph summaries, or commentary about what you would write.
