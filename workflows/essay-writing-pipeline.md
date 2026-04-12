@@ -76,9 +76,9 @@ A structured essay containing:
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.essay_topic}}` | Yes | The essay topic or question | `Discuss the role of social media in shaping modern political movements.` |
-| `{{input.subject_area}}` | Yes | The academic subject or discipline | `Politics` |
-| `{{input.level}}` | Yes | Academic level (e.g. undergraduate, postgraduate) | `undergraduate` |
+| `{{input.essay_topic}}` | Yes | The essay topic or question | `Analyse how the 1983 Yellow Pages Fly Fishing by J.R. Hartley advert blurred the line between fiction and reality, and what its enduring cultural significance reveals about British nostalgia and the power of advertising` |
+| `{{input.subject_area}}` | Yes | The academic subject or discipline | `Media Studies` |
+| `{{input.level}}` | Yes | Academic level (e.g. undergraduate, postgraduate) | `Undergraduate Year 2` |
 | `{{input.word_count}}` | Yes | Target word count for the essay | `2000` |
 
 ## Outputs
@@ -106,9 +106,10 @@ Before running this workflow:
 To test this workflow immediately after import:
 
 ```
-Essay Topic: "Discuss the role of social media in shaping modern political movements."
-Subject Area: "Politics"
-Level: "undergraduate"
+Essay Topic: "Analyse how the 1983 Yellow Pages Fly Fishing by J.R. Hartley advert blurred the line between fiction and reality, and what its enduring cultural significance reveals about British nostalgia and the power of advertising"
+Subject Area: "Media Studies"
+Level: "Undergraduate Year 2"
 Word Count: "2000"
+Citation Style: "Harvard"
 ```
 

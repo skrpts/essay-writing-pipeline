@@ -8,13 +8,13 @@ inputs:
   essay_topic:
     label: "Essay Topic"
     description: "The specific topic or question the essay should address"
-    example: "Analyse the impact of social media on democratic processes in the 2020s"
+    example: "Analyse how the 1983 Yellow Pages Fly Fishing by J.R. Hartley advert blurred the line between fiction and reality, and what its enduring cultural significance reveals about British nostalgia and the power of advertising"
     required: true
     type: text
   subject_area:
     label: "Subject Area"
     description: "The academic discipline or field of study"
-    example: "Political Science"
+    example: "Media Studies"
     required: true
     type: text
   level:
