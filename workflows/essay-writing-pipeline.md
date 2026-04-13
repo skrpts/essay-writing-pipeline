@@ -31,20 +31,16 @@ execution:
   - skill: "thesis-development"
     step_type: "generation"
   - skill: "essay-structuring"
-    input_from: "thesis-development"
     step_type: "content"
-  - skill: "citation-extraction"
-    input_from: "essay-structuring"
-    step_type: "synthesis"
   - skill: "language-polish"
-    input_from: "essay-structuring"
     step_type: "content"
-  - skill: "brief-compliance-check"
-    input_from: "language-polish"
-    step_type: "review"
-  - skill: "evidence-claim-check"
-    input_from: "language-polish"
-    step_type: "review"
+  - parallel:
+    - skill: "citation-extraction"
+      step_type: "synthesis"
+    - skill: "brief-compliance-check"
+      step_type: "review"
+    - skill: "evidence-claim-check"
+      step_type: "review"
 ---
 
 ## Overview
