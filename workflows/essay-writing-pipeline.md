@@ -27,6 +27,14 @@ connections:
     type: uses
   - target: evidence-claim-check
     type: uses
+output_step: "language-polish"
+composite_steps:
+  - "thesis-development"
+  - "essay-structuring"
+  - "citation-extraction"
+  - "language-polish"
+  - "brief-compliance-check"
+  - "evidence-claim-check"
 execution:
   - skill: "thesis-development"
     step_type: "generation"
