@@ -40,6 +40,7 @@ execution:
     step_type: "generation"
   - skill: "essay-structuring"
     step_type: "content"
+    prompt: "structure-essay"
   - skill: "language-polish"
     step_type: "content"
   - parallel:
