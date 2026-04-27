@@ -37,18 +37,23 @@ composite_steps:
   - "evidence-claim-check"
 execution:
   - skill: "thesis-development"
+    prompt: "develop-thesis"
     step_type: "generation"
   - skill: "essay-structuring"
     step_type: "content"
     prompt: "structure-essay"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
   - parallel:
     - skill: "citation-extraction"
+      prompt: "extract-citations"
       step_type: "synthesis"
     - skill: "brief-compliance-check"
+      prompt: "check-brief-compliance"
       step_type: "review"
     - skill: "evidence-claim-check"
+      prompt: "check-evidence-claims"
       step_type: "review"
 ---
 
