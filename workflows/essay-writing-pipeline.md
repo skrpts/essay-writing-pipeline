@@ -45,16 +45,27 @@ execution:
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    context:
+      voice_profile: ""
+      grammar_strictness: ""
   - parallel:
     - skill: "citation-extraction"
       prompt: "extract-citations"
       step_type: "synthesis"
+      context:
+        citation_style: ""
     - skill: "brief-compliance-check"
       prompt: "check-brief-compliance"
       step_type: "review"
+      context:
+        audience_profile: ""
+        compliance_brief: ""
+        compliance_depth: ""
     - skill: "evidence-claim-check"
       prompt: "check-evidence-claims"
       step_type: "review"
+      context:
+        evidence_rigour: ""
 ---
 
 ## Overview
