@@ -46,26 +46,26 @@ execution:
     prompt: "polish-language"
     step_type: "content"
     context:
-      voice_profile: ""
-      grammar_strictness: ""
+      voice_profile: "Neutral professional tone"
+      grammar_strictness: "Professional"
   - parallel:
     - skill: "citation-extraction"
       prompt: "extract-citations"
       step_type: "synthesis"
       context:
-        citation_style: ""
+        citation_style: "APA"
     - skill: "brief-compliance-check"
       prompt: "check-brief-compliance"
       step_type: "review"
       context:
-        audience_profile: ""
-        compliance_brief: ""
-        compliance_depth: ""
+        audience_profile: "General professional audience"
+        compliance_brief: "No specific compliance requirements"
+        compliance_depth: "Standard"
     - skill: "evidence-claim-check"
       prompt: "check-evidence-claims"
       step_type: "review"
       context:
-        evidence_rigour: ""
+        evidence_rigour: "Standard"
 ---
 
 ## Overview
