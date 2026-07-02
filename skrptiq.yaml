@@ -3,7 +3,7 @@ id: "c3c5437d-1276-4f25-b656-e86dcc8a3579"
 name: "essay-writing-pipeline"
 display_name: "Essay Writing Pipeline"
 description: "From topic to polished essay: thesis, outline, draft, and revision"
-version: "1.1.29"
+version: "1.1.30"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -99,7 +99,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-02T19:02:13.137Z"
+  scanned_at: "2026-07-02T19:13:44.315Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"

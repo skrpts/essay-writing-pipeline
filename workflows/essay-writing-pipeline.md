@@ -39,12 +39,15 @@ execution:
   - skill: "thesis-development"
     prompt: "develop-thesis"
     step_type: "generation"
+    output: { name: "thesis", type: "text" }
   - skill: "essay-structuring"
     step_type: "content"
     prompt: "structure-essay"
+    output: { name: "outline", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_essay", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
@@ -52,11 +55,13 @@ execution:
     - skill: "citation-extraction"
       prompt: "extract-citations"
       step_type: "synthesis"
+      output: { name: "citations", type: "list" }
       context:
         citation_style: "APA"
     - skill: "brief-compliance-check"
       prompt: "check-brief-compliance"
       step_type: "review"
+      output: { name: "compliance_verdict", type: "decision" }
       context:
         audience_profile: "General professional audience"
         compliance_brief: "No specific compliance requirements"
@@ -64,6 +69,7 @@ execution:
     - skill: "evidence-claim-check"
       prompt: "check-evidence-claims"
       step_type: "review"
+      output: { name: "evidence_report", type: "text" }
       context:
         evidence_rigour: "Standard"
 ---
