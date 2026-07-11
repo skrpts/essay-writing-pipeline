@@ -5,7 +5,7 @@ title: Essay Draft
 description: "Task prompt for generating a first draft from an essay outline"
 tags: [Production, Academic, Writing]
 connections:
-  - target: essay-structuring
+  - target: essay-drafting
     type: derived_from
 ---
 

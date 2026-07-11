@@ -19,7 +19,7 @@ connections: []
 - [ ] Write an engaging introduction with clear thesis
 - [ ] Develop each body paragraph with topic sentence, evidence, and analysis
 - [ ] Address counter-arguments
-- [ ] Write a conclusion that synthesises (not just summarises)
+- [ ] Write a conclusion that synthesises (not just summarizes)
 
 ### Revision
 - [ ] Check argument coherence and logical flow

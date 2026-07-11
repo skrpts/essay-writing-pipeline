@@ -2,7 +2,7 @@
 type: prompt
 id: structure-essay
 title: Structure Essay
-description: "Core prompt for organising arguments into a complete essay draft"
+description: "Core prompt for organizing arguments into a complete essay draft"
 tags: [Production, Academic, Writing]
 inputs:
   word_count:

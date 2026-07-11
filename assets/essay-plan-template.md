@@ -50,7 +50,7 @@ connections: []
 
 ### Conclusion
 - Restate thesis: {{restated_thesis}}
-- Summarise key points: {{summary}}
+- Summarize key points: {{summary}}
 - Final thought: {{final_thought}}
 
 ### Sources

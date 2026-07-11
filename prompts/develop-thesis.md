@@ -8,7 +8,7 @@ inputs:
   essay_topic:
     label: "Essay Topic"
     description: "The specific topic or question the essay should address"
-    example: "Analyse how the 1983 Yellow Pages Fly Fishing by J.R. Hartley advert blurred the line between fiction and reality, and what its enduring cultural significance reveals about British nostalgia and the power of advertising"
+    example: "Analyze how the 1983 Yellow Pages Fly Fishing by J.R. Hartley advert blurred the line between fiction and reality, and what its enduring cultural significance reveals about British nostalgia and the power of advertising"
     required: true
     type: text
   subject_area:

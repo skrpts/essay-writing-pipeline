@@ -9,6 +9,8 @@ connections:
     type: uses
   - target: essay-structuring
     type: uses
+  - target: essay-drafting
+    type: uses
   - target: llm-service
     type: runs_on
   - target: critical-thinking-framework
@@ -31,6 +33,7 @@ output_step: "language-polish"
 composite_steps:
   - "thesis-development"
   - "essay-structuring"
+  - "essay-drafting"
   - "citation-extraction"
   - "language-polish"
   - "brief-compliance-check"
@@ -44,6 +47,10 @@ execution:
     step_type: "content"
     prompt: "structure-essay"
     output: { name: "outline", type: "text" }
+  - skill: "essay-drafting"
+    prompt: "essay-draft"
+    step_type: "generation"
+    output: { name: "draft", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
@@ -51,6 +58,10 @@ execution:
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
+    bindings:
+      source:
+        from_step: "Essay Drafting"
+        field: output
   - parallel:
     - skill: "citation-extraction"
       prompt: "extract-citations"
@@ -66,6 +77,10 @@ execution:
         audience_profile: "General professional audience"
         compliance_brief: "No specific compliance requirements"
         compliance_depth: "Standard"
+      bindings:
+        source:
+          from_step: "Language Polish"
+          field: output
     - skill: "evidence-claim-check"
       prompt: "check-evidence-claims"
       step_type: "review"
@@ -86,7 +101,7 @@ Invoke the **thesis-development** skill to refine a vague topic into a focused, 
 
 ### Stage 2: Essay Structuring
 
-Invoke the **essay-structuring** skill to organise supporting arguments into a coherent essay structure with logical flow.
+Invoke the **essay-structuring** skill to organize supporting arguments into a coherent essay structure with logical flow.
 
 ### Stage 3: First Draft
 
@@ -125,7 +140,7 @@ A structured essay containing:
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes

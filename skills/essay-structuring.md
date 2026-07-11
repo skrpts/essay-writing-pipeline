@@ -2,7 +2,7 @@
 type: skill
 id: essay-structuring
 title: Essay Structuring
-description: "Organises arguments into a coherent essay structure"
+description: "Organizes arguments into a coherent essay structure"
 tags: [Production, Academic, Writing]
 connections:
   - target: llm-service
