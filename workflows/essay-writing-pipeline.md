@@ -69,6 +69,10 @@ execution:
       output: { name: "citations", type: "list" }
       context:
         citation_style: "APA"
+      bindings:
+        source:
+          from_step: "Language Polish"
+          field: output
     - skill: "brief-compliance-check"
       prompt: "check-brief-compliance"
       step_type: "review"
@@ -87,6 +91,10 @@ execution:
       output: { name: "evidence_report", type: "text" }
       context:
         evidence_rigour: "Standard"
+      bindings:
+        source:
+          from_step: "Language Polish"
+          field: output
 ---
 
 ## Overview

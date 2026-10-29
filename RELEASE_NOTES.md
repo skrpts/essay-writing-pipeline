@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.32
+GH#1100 consumer wave batch 5 — declare the data flow these steps were resolving positionally. 2 binding(s) added: `extract-citations` ← Language Polish; `check-evidence-claims` ← Language Polish. Each dependency was also re-pinned to the version that introduced its `source` slot, with checksums resolved from the live catalogue rather than transcribed — a binding against a pin below the slot version is declared but inert, which the canonical scan reports as `execution_bindings_unused_key`.
+
 ## v1.1.31
 GH#818 Phase 1 (Tier 1) — fix intent-vs-output: the pipeline promised a drafted essay but polished the OUTLINE (the `essay-draft` prompt was shipped but never wired into the execution). Wire it in on a dedicated local `essay-drafting` skill: thesis → structure(outline) → **essay-draft(draft)** → polish. The polish step now binds `source` `from_step "Essay Drafting"` so it polishes the draft, not the outline. Coherent-lock all deps to current published (repin `polish-language` 1.0.1 → 1.0.5, etc.). contents skills 2→3.
 

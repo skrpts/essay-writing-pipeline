@@ -3,7 +3,7 @@ id: "c3c5437d-1276-4f25-b656-e86dcc8a3579"
 name: "essay-writing-pipeline"
 display_name: "Essay Writing Pipeline"
 description: "From topic to polished essay: thesis, outline, draft, and revision"
-version: "1.1.31"
+version: "1.1.32"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -37,8 +37,8 @@ dependencies:
     checksum: "sha256:9b0d4f00d196cb1cdf75f83930fce99fb2424ddc3f19de1652f0f9a1a8483c8f"
   - id: "35daebca-cb8a-4a74-9f5c-51be5f7327fb"
     name: "check-evidence-claims"
-    version: 1.0.2
-    checksum: "sha256:bf9b5e19c3eec1069cf160cf1e075525a97477d98e48f6565413a93e6eb85b2a"
+    version: 1.0.3
+    checksum: "sha256:14026982b1ddd402b83bf775ab28b6a71ebd3272fbe244a7f2c3aa6d3380734f"
   - id: "ac381619-0b5f-4525-8fa3-0a8790bc4f9e"
     name: "chicago-manual-of-style"
     version: 1.0.2
@@ -61,8 +61,8 @@ dependencies:
     checksum: "sha256:8b0ee0c1759b5611744e3843c3312365787cef6aa72092400088212fafaad69a"
   - id: "22961d90-c212-4b1f-aaff-fff7b2eba88b"
     name: "extract-citations"
-    version: 1.0.2
-    checksum: "sha256:2386972d948fc88e357ff04dfe8bf2ac829d9c20b207201492f30a872eb0aa30"
+    version: 1.0.4
+    checksum: "sha256:17ec2fe81f397f57a0a788ee04c4cac2415b6fca023c282b965996b18c67c5eb"
   - id: "668a18be-1d19-4247-930e-832f7cc05627"
     name: "harvard-referencing-guide"
     version: 1.0.2
@@ -99,7 +99,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-11T22:43:14.485Z"
+  scanned_at: "2026-10-29T08:37:41.121Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"
